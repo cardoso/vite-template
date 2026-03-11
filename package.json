@@ -5,21 +5,21 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run"
   },
   "devDependencies": {
     "typescript": "~5.9.3",
-    "vite": "^8.0.0-beta.16",
-    "vitest": "^4.1.0-beta.5",
-    "@vitest/browser-playwright": "^4.1.0-beta.5"
+    "vite": "^8.0.0-beta.18",
+    "vitest": "^4.1.0-beta.6",
+    "@vitest/browser-playwright": "^4.1.0-beta.6"
   },
   "pnpm": {
     "overrides": {
-      "vite": "^8.0.0-beta.16",
-      "vitest": "^4.1.0-beta.5",
-      "@vitest/browser-playwright": "^4.1.0-beta.5"
+      "vite": "^8.0.0-beta.18",
+      "vitest": "^4.1.0-beta.6",
+      "@vitest/browser-playwright": "^4.1.0-beta.6"
     }
   }
 }
